@@ -1,0 +1,60 @@
+.icon {
+    font-size: 20px;
+    margin: 4px;
+}
+
+.arrow {
+    color: #01B636;
+}
+
+.heroArrow{
+color: #ffff;
+}
+
+.navbtn{
+ position: relative;
+}
+ 
+.hoverEffect {
+    margin-top: -1px;
+}
+
+.hoverEffect::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: rgb(34, 177, 76);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.hoverEffect:hover::after {
+    width: 100%;
+}
+
+.bgImg {
+    background-image: url(images/bg-green.png);
+    box-shadow: inset 0px 0px 100px 100px #ffff;
+    background-repeat: no-repeat;
+}
+
+.expimage {
+    position: absolute;
+    margin-left: -30px;
+    height: 100px;
+
+}
+
+/* @keyframes myfirst {
+    0%   {left: 0px; top: 0px;}
+    50%  {left: 5px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+  } */
+
+.carveArrow {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -130px;
+    height: 150px;
+}
