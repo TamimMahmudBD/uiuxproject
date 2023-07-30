@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='lg:mb-96'>
-          <img className='expimage mm:hidden sm:hidden md:block lg:block xl:block 2xl:block animate-bounce' src={expImg} alt="" />
+          <img className='expimage mm:hidden sm:hidden lg:block xl:block 2xl:block animate-bounce' src={expImg} alt="" />
           <img className='carveArrow mm:hidden sm:hidden md:hidden lg:block' src={CarveArrow} alt="" />
         </div>
         <div className='mm:mx-3 sm:mr-10'>
