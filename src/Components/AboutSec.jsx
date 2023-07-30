@@ -35,7 +35,7 @@ const AboutSec = () => {
                             <div class="text-center text-black text-xl md:text-sm font-semibold">Name</div>
                             <div class="text-center text-black text-xl md:text-sm font-normal">Md Abir Akter</div>
                         </div>
-                        <div class="hidden md:block my-2 p-2 bg-green-100 rounded-xl shadow border border-green-600">
+                        <div class="hidden md:block mx-2 my-2 p-2 bg-green-100 rounded-xl shadow border border-green-600">
                             <div class="text-center text-black text-xl md:text-sm font-semibold">Email</div>
                             <div class="text-center text-black text-xl md:text-sm font-normal">abirakter056@gmail.com1</div>
                         </div>

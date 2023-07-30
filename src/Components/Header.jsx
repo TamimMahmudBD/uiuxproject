@@ -6,7 +6,7 @@ import MobMenu from './MobMenu';
 
 const Header = () => {
   return (
-    <div className='mm:flex mm:justify-between sm:flex-col md:flex-row md:items-center font-semibold md:justify-center mm:mx-5 mm:mr-2 mm:mt-5 sm:mx-0 sm:my-10   Raleway '>
+    <div className='mm:flex mm:justify-between sm:flex-col md:flex-row md:items-center font-semibold md:justify-center mm:mx-5 mm:mr-2 mm:mt-5 sm:mx-0 sm:my-10 md:mt-10 md:mb-3  Raleway '>
       <div>
         <h1 className='text-2xl cursor-pointer'>Logo</h1>
       </div>

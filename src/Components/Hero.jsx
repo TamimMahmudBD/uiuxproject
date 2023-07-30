@@ -14,7 +14,7 @@ const Hero = () => {
     <div >
       <div className='mm:flex mm:justify-center  mm:flex-col mm:items-center sm:flex sm:justify-center sm:flex-col md:flex md:flex-row md:justify-center bgImg'>
         <img className='pointer h-12 mr-3 mt-16' src={Pointer} alt="" />
-        <div className="mm:text-left sm:text-left md:text-left mm:mx-5 sm:mx-0 lg:mr-32 xl:mr-36 mt-10">
+        <div className="mm:text-left sm:text-left md:text-left mm:mx-5 sm:mx-0 lg:mr-32 xl:mr-36">
           <div className='flex mb-0 mm:text-left sm:text-center md:text-left'>
             <div>
               <span className="text-neutral-800 mm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">Hello!</span>
@@ -50,8 +50,8 @@ const Hero = () => {
 
           </div>
         </div>
-        <div>
-          <img className='expimage mm:hidden sm:hidden animate-bounce' src={expImg} alt="" />
+        <div className='lg:mb-96'>
+          <img className='expimage mm:hidden sm:hidden md:block lg:block xl:block 2xl:block animate-bounce' src={expImg} alt="" />
           <img className='carveArrow mm:hidden sm:hidden md:hidden lg:block' src={CarveArrow} alt="" />
         </div>
         <div className='mm:mx-3 sm:mr-10'>
