@@ -4,7 +4,7 @@ import { useState } from "react"; // import state
 const MobMenu = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     return (
-        <div className="flex items-center justify-between  ">
+        <div className="flex ml-64 mr-5 items-end">
 
             <nav>
                 <section className="MOBILE-MENU flex lg:hidden">
