@@ -8,6 +8,7 @@ import userone from "./images/userone.png"
 import usertwo from "./images/usertwo.png"
 import userthree from "./images/userthree.png"
 import userfour from "./images/userfour.png"
+import RotetDown from './images/Rotet-down.png'
 
 const Hero = () => {
   return (
@@ -40,7 +41,8 @@ const Hero = () => {
         lg:mr-32 
         xl:mr-36">
           <div className='
-          flex mb-0 
+          flex 
+          mb-0 
           mm:text-left 
           sm:text-center 
           md:text-left'>
@@ -58,12 +60,14 @@ const Hero = () => {
               <span className='
               text-white 
               font-semibold 
-              mm:text-4xl 
+              mm:text-3xl 
               md:text-2xl 
-              md:p-2 
+              md:p-2  
               text-3xl 
               lg:text-2xl 
               ml-4 
+              mm:px-2
+              mm:py-1
               lg:py-1.5 
               lg:px-2.5 
               xl:py-2 
@@ -85,20 +89,30 @@ const Hero = () => {
             font-bold"> <br /></span>
             <div className='
             back 
-            rounded-full'>
+            rounded-full mm:my-3'>
               <span className="
               text-green-700 
-              mm:text-4xl 
+              mm:text-3xl 
               md:text-4xl 
               lg:text-5xl 
               xl:text-6xl 
               2xl:text-7xl 
               font-bold">I'm MD ABIR AKTER<br /></span>
             </div>
+            <img className='
+          absolute 
+          mm:rotate-12
+          mm: ml-64
+          mm:-mt-3
+          mm:h-20
+          sm:hidden 
+          md:hidden 
+          lg:' 
+          src={RotetDown} alt="" />
             <div className='mt-4'>
               <span className="
               text-neutral-800 
-              mm:text-4xl 
+              mm:text-2xl 
               md:text-2xl 
               lg:text-3xl 
               xl:text-5xl 
@@ -107,6 +121,8 @@ const Hero = () => {
           </div>
           <div className='
           flex 
+          mm:hidden
+          md:block
           mt-11 
           md:mt-5 
           lg:mt-8 
@@ -174,7 +190,11 @@ const Hero = () => {
         <div className='lg:mb-96'>
           <img className='
           expimage 
-          mm:hidden 
+          mm:w-24
+          mm:ml-[65px]
+          md:ml-30
+          md:ml-auto
+          md:w-auto
           sm:hidden 
           lg:block 
           xl:block 
@@ -182,7 +202,7 @@ const Hero = () => {
           animate-bounce' src={expImg} alt="" />
           <img className='
           carveArrow 
-          mm:hidden 
+          mm:hidden
           sm:hidden 
           md:hidden 
           lg:block' src={CarveArrow} alt="" />
