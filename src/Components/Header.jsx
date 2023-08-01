@@ -21,6 +21,7 @@ const Header = () => {
     sm:my-10 
     md:mt-10 
     md:mb-3  
+    md:ml-5
     Raleway '>
       <div>
         <h1 className='

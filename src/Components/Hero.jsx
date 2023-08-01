@@ -24,10 +24,14 @@ const Hero = () => {
       md:flex 
       md:flex-row 
       md:justify-center 
+      md:mt-5
+      xl:pr-32
       bgImg'>
         <img className='
         mm:hidden 
-        md:block 
+       
+        xl:block 
+        md:pl-10
         pointer 
         h-12 mr-3 
         mt-16 
@@ -38,11 +42,13 @@ const Hero = () => {
         md:text-left 
         mm:mx-5 
         sm:mx-0 
+        md:pl-10
         lg:mr-32 
         xl:mr-36">
           <div className='
           flex 
           mb-0 
+          
           mm:text-left 
           sm:text-center 
           md:text-left'>
@@ -95,7 +101,7 @@ const Hero = () => {
               mm:text-3xl 
               md:text-4xl 
               lg:text-5xl 
-              xl:text-6xl 
+              xl:text-5xl 
               2xl:text-7xl 
               font-bold">I'm MD ABIR AKTER<br /></span>
             </div>
@@ -122,7 +128,7 @@ const Hero = () => {
           <div className='
           flex 
           mm:hidden
-          md:block
+          md:flex
           mt-11 
           md:mt-5 
           lg:mt-8 
@@ -135,6 +141,7 @@ const Hero = () => {
               <button className='
               border-2 
               px-4 py-2  
+              lg:w-36
               bg-gradient-to-br 
               text-white 
               font-semibold 
@@ -183,7 +190,9 @@ const Hero = () => {
             font-semibold 
             md:ml-0 
             md:mb-1 
-            lg:ml-5">1K+ World Wide <br />Clients </div>
+            lg:ml-5
+            
+            ">1K+ World Wide <br />Clients </div>
 
           </div>
         </div>
