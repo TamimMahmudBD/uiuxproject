@@ -25,8 +25,10 @@ const Header = () => {
     Raleway '>
       <div>
         <h1 className='
+        font-bold
+        text-green-600
         text-2xl 
-        cursor-pointer'>Logo</h1>
+        cursor-pointer'>ABIR</h1>
       </div>
       <div className='
       mm:hidden 
