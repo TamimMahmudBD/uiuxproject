@@ -22,8 +22,8 @@ const AboutSec = () => {
             flex 
             items-center 
             justify-center 
-            mm:pt-16
-            mm:pb-24
+            mm:pt-0
+            mm:pb-4
             md:pl-5
             lg:-mt-14
             

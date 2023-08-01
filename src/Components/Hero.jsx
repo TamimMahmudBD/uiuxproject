@@ -25,7 +25,7 @@ const Hero = () => {
       md:flex-row 
       md:justify-center 
       md:mt-5
-      xl:pr-32
+      xl:pr-36
       bgImg'>
         <img className='
         mm:hidden 
@@ -43,8 +43,9 @@ const Hero = () => {
         mm:mx-5 
         sm:mx-0 
         md:pl-10
-        lg:mr-32 
-        xl:mr-36">
+        lg:mr-28 
+        xl:mr-40
+        xl:my-12">
           <div className='
           flex 
           mb-0 
@@ -101,7 +102,7 @@ const Hero = () => {
               mm:text-3xl 
               md:text-4xl 
               lg:text-5xl 
-              xl:text-5xl 
+              xl:text-[3.5rem] 
               2xl:text-7xl 
               font-bold">I'm MD ABIR AKTER<br /></span>
             </div>
@@ -136,7 +137,8 @@ const Hero = () => {
           mm:flex-col 
           lg:flex-row 
           md:justify-start 
-          md:items-start'>
+          md:items-start
+          xl:mb-0'>
             <div className=''>
               <button className='
               border-2 
@@ -207,6 +209,7 @@ const Hero = () => {
           sm:hidden 
           lg:block 
           xl:block 
+          lg:mt-10
           2xl:block 
           animate-bounce' src={expImg} alt="" />
           <img className='
@@ -219,28 +222,28 @@ const Hero = () => {
         <div className='
         mm:mx-3 
         sm:mr-10 
-        md:mt-5'>
+        md:mt-[6.25rem]'>
           <div class="
-          w-[349px] 
-          lg:w-[249] 
-          lg:h-[349] 
-          h-[439px] 
-          rounded-tl-[311px] 
-          rounded-tr-[311px] 
+          w-[300px] 
+          h-[350px] 
+          lg:w-[320px] 
+          lg:h-[400px] 
+          rounded-tl-[300px] 
+          rounded-tr-[300px] 
           border-4 pl-4 
           border-green-300">
             <div class=""> </div><img className='
-            w-[349px] 
-            h-[439px] 
-            lg:w-[249] 
-            lg:h-[349] 
+            w-[300px] 
+            h-[350px] 
+            lg:w-[320px] 
+            lg:h-[400px] 
             p-10 
             pb-0 
             bg-gradient-to-br 
             from-green-500 
             to-green-950 
-            rounded-tl-[311px] 
-            rounded-tr-[311px]' src={manimg} alt="react logo" /></div>
+            rounded-tl-[300px] 
+            rounded-tr-[300px]' src={manimg} alt="react logo" /></div>
         </div>
       </div>
     </div>

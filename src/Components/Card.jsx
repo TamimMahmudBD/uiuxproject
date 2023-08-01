@@ -8,13 +8,14 @@ const Card = () => {
         md:flex-row
         items-center 
         justify-center
+        lg:px-7
         xl:px-28 '>
             <div className='
             flex 
             
             items-center 
             justify-center 
-            text-center
+            text-left
             bg-gradient-to-br 
             from-green-500 
             to-green-950 
@@ -28,7 +29,7 @@ const Card = () => {
             md:h-32 
             '>
                 <h1 className=' text-5xl md:text-4xl font-bold lg:text-5xl mx-2 md:ml-01'>20</h1>
-                <h3 className=' text-2xl md:text-xl md:mr-01'>Co-Agent</h3>
+                <h3 className=' text-2xl md:text-xl md:mr-01 text-left'>Co-Agent</h3>
             </div>
             <div className='
             flex 
@@ -50,7 +51,7 @@ const Card = () => {
             md:h-32 
             '>
                 <h1 className='text-5xl font-bold lg:text-5xl md:text-4xl mx-2 md:ml-01'>356</h1>
-                <h3 className='text-2xl md:text-xl md:mr-01'>Digital <br /> Product</h3>
+                <h3 className='text-2xl md:text-xl md:mr-01 text-left'>Digital <br /> Product</h3>
             </div>
             <div className='
             flex 
@@ -73,7 +74,7 @@ const Card = () => {
             
             '>
                 <h1 className='text-5xl font-bold lg:text-5xl md:text-4xl mx-2 md:ml-01'>2K</h1>
-                <h3 className='text-2xl md:text-xl md:mr-01'>Total <br /> Product</h3>
+                <h3 className='text-2xl md:text-xl md:mr-01 text-left'>Total <br /> Product</h3>
             </div>
             <div className='
             flex 
@@ -93,7 +94,7 @@ const Card = () => {
             md:h-32 
             '>
                 <h1 className='text-5xl font-bold lg:text-5xl md:text-4xl mx-2 md:ml-01'>1.1K</h1>
-                <h3 className='text-2xl md:text-xl md:mr-01'>Our Happy <br /> Claint</h3>
+                <h3 className='text-2xl md:text-xl md:mr-01 text-left'>Our Happy <br /> Claint</h3>
             </div>
 
         </div>
