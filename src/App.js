@@ -33,6 +33,7 @@ function App() {
           <Routes>
             <Route path='*' element={<Error />} />
             <Route path='/' element={<Home />}>
+              <Route index element={<AllServices />} />
               <Route path='Service/AllServices' element={<AllServices />} />
               <Route path='Service/AppDesign' element={<AppDesign />} />
               <Route path='Service/WebDesign' element={<WebDesign />} />
