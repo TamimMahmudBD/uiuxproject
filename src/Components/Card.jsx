@@ -44,7 +44,10 @@ const Card = () => {
             m-7
             mm: w-5/6
             mm:h-32
+            mm:mt-0
+            mm:mb-6
             md:ml-0
+            md:mt-7
             md:mr-3
             py-2
             md:w-4/6
@@ -68,6 +71,7 @@ const Card = () => {
             md:mr-0
             mm: w-5/6
             mm:h-32
+            mm:my-0
             py-2
             md:w-4/6
             md:h-32 
