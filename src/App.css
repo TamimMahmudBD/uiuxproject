@@ -16,3 +16,7 @@ font-family: sans-serif serif;
 .Raleway{
     font-family: 'Raleway', sans-serif;
 }
+.active{
+    color: green;
+    font-weight: 800;
+}

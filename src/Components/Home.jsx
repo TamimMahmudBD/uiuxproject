@@ -3,6 +3,7 @@ import Hero from './Hero'
 import CarveSec from './CarveSec'
 import AboutSec from './AboutSec'
 import Card from './Card'
+import ServiceSec from './ServiceSec.jsx'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <CarveSec/>
     <AboutSec/>
     <Card/>
+    <ServiceSec/>
     </div>
   )
 }

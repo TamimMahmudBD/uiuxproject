@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { FaArrowCircleRight } from "react-icons/fa";
 import MobMenu from './MobMenu';
 
@@ -53,42 +53,12 @@ const Header = () => {
       lg:mx-36 
       xl:mx-52 
       2xl:mx-72 '>
-        <Link to={'./'}>
-          <h1 className='
-        mx-2 
-      hover:text-[#01B636] 
-        hoverEffect'>Home</h1>
-        </Link>
-        <Link to={'./Service'}>
-          <h1 className='
-        mx-3 
-        hover:text-[#01B636] 
-        hoverEffect'>Services</h1>
-        </Link>
-        <Link to={'./About'}>
-          <h1 className='
-        mx-3 
-        hover:text-[#01B636] 
-        hoverEffect'>About</h1>
-        </Link>
-        <Link to={'./Project'}>
-          <h1 className='
-        mx-3 
-        hover:text-[#01B636] 
-        hoverEffect'>Project</h1>
-        </Link>
-        <Link to={'./Workes'}>
-          <h1 className='
-        mx-3 
-        hover:text-[#01B636] 
-        hoverEffect'>Works</h1>
-        </Link>
-        <Link to={'./Blog'}>
-          <h1 className='
-        mx-2 
-        hover:text-[#01B636] 
-        hoverEffect'>Blog</h1>
-        </Link>
+        <NavLink to={'./'}> <h1 className='mx-2 hover:text-[#01B636] hoverEffect'>Home</h1></NavLink>
+        <NavLink to={'./Service'}> <h1 className='mx-3 hover:text-[#01B636] hoverEffect'>Services</h1></NavLink>
+        <NavLink to={'./About'}><h1 className=' mx-3  hover:text-[#01B636]  hoverEffect'>About</h1></NavLink>
+        <NavLink to={'./Project'}> <h1 className=' mx-3 hover:text-[#01B636] hoverEffect'>Project</h1></NavLink>
+        <NavLink to={'./Workes'}> <h1 className=' mx-3 hover:text-[#01B636] hoverEffect'>Works</h1></NavLink>
+        <NavLink to={'./Blog'}><h1 className=' mx-2 hover:text-[#01B636] hoverEffect'>Blog</h1></NavLink>
       </div>
       <div className='
       mm:hidden 

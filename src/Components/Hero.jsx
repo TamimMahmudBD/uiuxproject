@@ -9,10 +9,10 @@ import usertwo from "./images/usertwo.png"
 import userthree from "./images/userthree.png"
 import userfour from "./images/userfour.png"
 import RotetDown from './images/Rotet-down.png'
-
 const Hero = () => {
   return (
-    <div >
+    <div>
+
       <div className='
       mm:flex 
       mm:justify-center 
@@ -26,6 +26,7 @@ const Hero = () => {
       md:justify-center 
       md:mt-5
       xl:pr-36
+      
       bgImg'>
         <img className='
         mm:hidden 
@@ -209,7 +210,7 @@ const Hero = () => {
           sm:hidden 
           lg:block 
           xl:block 
-          lg:mt-10
+          lg:mt-2
           2xl:block 
           animate-bounce' src={expImg} alt="" />
           <img className='
@@ -222,7 +223,7 @@ const Hero = () => {
         <div className='
         mm:mx-3 
         sm:mr-10 
-        md:mt-[6.25rem]'>
+        md:mt-[3.25rem]'>
           <div class="
           w-[300px] 
           h-[350px] 
