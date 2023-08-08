@@ -6,7 +6,8 @@ import AdobePS from './images/AdobePS.png'
 
 const Experience = () => {
   return (
-    <div >
+    <div className='3xl:mx-[7%]
+    4xl:mx-[14%]'>
       <div className='mm:w-5/6 md:w-full text-left mb-2 mt-12 mm:mx-10 md:mx-0'>
         <div className="text-green-600 text-xl  md:text-center font-bold  ">About of experience</div>
         <div className="text-neutral-800 mm:text-lg lg:text-3xl  md:text-center font-bold ">I craft wonderful digital experiences for brands</div>

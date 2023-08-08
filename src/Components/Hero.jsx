@@ -26,7 +26,8 @@ const Hero = () => {
       md:justify-center 
       md:mt-5
       xl:pr-36
-      
+      3xl:mx-[7%]
+       4xl:mx-[14%]
       bgImg'>
         <img className='
         mm:hidden 

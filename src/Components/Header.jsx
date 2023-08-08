@@ -23,7 +23,8 @@ const Header = () => {
     md:mb-3 
     lg:mx-20 
     xl:mx-16
-    
+    3xl:mx-[10%]
+    4xl:mx-[20%]
     Raleway '>
 
       <div>
@@ -36,7 +37,7 @@ const Header = () => {
         font-bold
         text-green-600
         text-2xl 
-        cursor-pointer'><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;UI UX</a></h1>
+        cursor-pointer'><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;UI/UX</a></h1>
       </div>
 
       <div className='flex justify-between sm:hidden'>
@@ -52,7 +53,8 @@ const Header = () => {
       md:mx-12 
       lg:mx-36 
       xl:mx-52 
-      2xl:mx-72 '>
+      2xl:mx-72 
+      3xl:mx-[14rem]'>
         <NavLink to={'./'}> <h1 className='mx-2 hover:text-[#01B636] hoverEffect'>Home</h1></NavLink>
         <NavLink to={'./Service'}> <h1 className='mx-3 hover:text-[#01B636] hoverEffect'>Services</h1></NavLink>
         <NavLink to={'./About'}><h1 className=' mx-3  hover:text-[#01B636]  hoverEffect'>About</h1></NavLink>

@@ -5,14 +5,15 @@ import SliderComp from './Slider';
 import '../style.css'
 const Projects = () => {
   return (
-    <Container id='project'  >
+    <Container id='project' >
         <div>
         <div className='mm:w-5/6 md:w-full text-left mb-2 mt-12 mm:mx-10 md:mx-0'>
         <div className="text-green-600 text-xl  md:text-center font-bold  ">Customer Review</div>
         <div className="text-neutral-800 mm:text-lg lg:text-3xl  md:text-center font-bold ">What our claint say about my Works</div>
       </div>
         </div>
-        <Slide>
+        <Slide  className='3xl:mx-[6%]
+        4xl:mx-[6%]'>
             <SliderComp/>
         </Slide>
     </Container>

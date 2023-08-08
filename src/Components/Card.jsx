@@ -9,7 +9,9 @@ const Card = () => {
         items-center 
         justify-center
         lg:px-7
-        xl:px-28 '>
+        xl:px-28 
+        3xl:mx-[7%]
+        4xl:mx-[14%]'>
             <div className='
             flex 
             

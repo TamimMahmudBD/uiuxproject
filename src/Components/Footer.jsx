@@ -2,10 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='mt-10'>
-      <footer className="footer p-10 bg-base-200 text-base-content flex md:flex-row mm:flex-col justify-evenly items-start bg-gradient-to-r  from-green-600  to-green-950 text-white">
+    <div className='mt-10 '>
+      <footer className="footer p-10 bg-base-200 text-base-content flex md:flex-row mm:flex-col justify-evenly items-start bg-gradient-to-r  from-green-600  to-green-950 text-white 3xl:px-[10%]
+    4xl:px-[18%]">
         <div className='text-left'>
-          <h1 className='text-2xl font-bold'>UI UX</h1>
+          <h1 className='text-2xl font-bold'>UI/UX</h1>
           <br />
           <p>Brand Name Ltd.<br />Providing reliable tech since 2012</p>
           <p>Lorem, ipsum dolor sit amet  consectetur <br />adipisicing elit.

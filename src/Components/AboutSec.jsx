@@ -14,6 +14,8 @@ const AboutSec = () => {
         md:flex-row  
         md:pl-10
         xl:pl-0
+        3xl:mx-[10%]
+        4xl:mx-[15%]
         items-center 
         justify-center'>
 

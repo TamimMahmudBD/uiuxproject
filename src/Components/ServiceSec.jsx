@@ -6,7 +6,8 @@ import { NavLink } from 'react-router-dom'
 
 const ServiceSec = () => {
   return (
-    <div className='my-7'>
+    <div className='my-7 3xl:mx-[7%]
+    4xl:mx-[14%]'>
       <div className='mm:w-5/6 md:w-full text-left mm:mx-10 md:mx-0'>
         <div className="text-green-600 text-xl  md:text-center font-bold  ">Service</div>
         <div className="text-neutral-800 mm:text-lg lg:text-3xl  md:text-center font-bold ">What I Do For My Clients</div>
