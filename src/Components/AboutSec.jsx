@@ -25,6 +25,8 @@ const AboutSec = () => {
             mm:pt-0
             mm:pb-4
             md:pl-5
+            lg:pr-10
+            xl:pr-20
             lg:-mt-14
             
             '>
@@ -91,7 +93,7 @@ const AboutSec = () => {
                     md:h-56 
                     md:w-56  
                     lg:h-72
-                    lg:w-72
+                    lg:w-80
                     bg-green-900 
                     mm:ml-56
                     md:ml-72
