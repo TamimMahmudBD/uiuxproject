@@ -1,10 +1,9 @@
 import React from 'react'
-import Projects from './Projects'
-
+import AboutSec from './AboutSec'
 const About = () => {
   return (
     <div>
-    <Projects />
+    <AboutSec/>
     </div>
   )
 }

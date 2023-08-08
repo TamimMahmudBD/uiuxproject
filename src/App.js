@@ -41,7 +41,14 @@ function App() {
               <Route path='Service/AdminPnl' element={<AdminPnl />} />
               <Route path='Service/IsoDesign' element={<IsoDesign />} />
             </Route>
-            <Route path='/Service' element={<Service />} />
+            <Route path='/Service' element={<Service />}>
+            <Route index element={<AllServices />} />
+              <Route path='Service/AllServices' element={<AllServices />} />
+              <Route path='Service/AppDesign' element={<AppDesign />} />
+              <Route path='Service/WebDesign' element={<WebDesign />} />
+              <Route path='Service/AdminPnl' element={<AdminPnl />} />
+              <Route path='Service/IsoDesign' element={<IsoDesign />} />
+            </Route>
             <Route path='/About' element={<About />} />
             <Route path='/Project' element={<Project />} />
             <Route path='/Workes' element={<Workes />} />

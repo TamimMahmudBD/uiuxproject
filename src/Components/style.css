@@ -92,7 +92,9 @@
   --lighter: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
  
 }
-
+.bkCTqC{
+  padding: 0px;
+}
 body{
   width: 100%;
   background-color: var(---background);
@@ -118,9 +120,10 @@ body{
 }
 
 .center .project{
-  opacity: 0.7;
+  opacity: 01.1;
   pointer-events: none;
 }
+
 
 @media(max-width: 990px){
   .center .slick-center .project{
@@ -131,9 +134,17 @@ body{
     opacity: 1;
     pointer-events: all;
   }
+  
 }
 
-
+@media(max-width: 550px){
+  .slick-slider{
+    padding: .2rem 0;
+  }
+  .slick-list{
+    padding: 0rem 0;
+  }
+}
 /* scroll bar style  */
 ::-webkit-scrollbar {
   width: 10px;

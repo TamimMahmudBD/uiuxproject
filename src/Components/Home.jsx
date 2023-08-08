@@ -5,6 +5,7 @@ import AboutSec from './AboutSec'
 import Card from './Card'
 import ServiceSec from './ServiceSec.jsx'
 import Experience from './Experience'
+import Review from './Review'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
     <AboutSec/>
     <Card/>
     <ServiceSec/>
+    <Review/>
     <Experience/>
     </div>
   )
