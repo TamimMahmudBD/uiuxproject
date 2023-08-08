@@ -105,7 +105,7 @@ const Hero = () => {
               lg:text-5xl 
               xl:text-[3.5rem] 
               2xl:text-7xl 
-              font-bold">I'm MD ABIR AKTER<br /></span>
+              font-bold">I'm JHON SMITH<br /></span>
             </div>
             <img className='
           absolute 

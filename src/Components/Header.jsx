@@ -36,7 +36,7 @@ const Header = () => {
         font-bold
         text-green-600
         text-2xl 
-        cursor-pointer'><a href="/"> &nbsp;&nbsp;ABIR</a></h1>
+        cursor-pointer'><a href="/"> &nbsp;&nbsp;&nbsp;&nbsp;UI UX</a></h1>
       </div>
 
       <div className='flex justify-between sm:hidden'>

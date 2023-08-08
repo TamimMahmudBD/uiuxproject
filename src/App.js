@@ -12,6 +12,7 @@ import AppDesign from './Components/Service/AppDesign'
 import WebDesign from './Components/Service/WebDesign'
 import AdminPnl from './Components/Service/AdminPnl'
 import IsoDesign from './Components/Service/IsoDesign'
+import Dummy from './Components/Dummy'
 
 
 import Error from './Components/Error'
@@ -30,6 +31,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
+          <Dummy/>
           <Header />
           <Routes>
             <Route path='*' element={<Error />} />

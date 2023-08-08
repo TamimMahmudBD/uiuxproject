@@ -179,7 +179,7 @@ const AboutSec = () => {
                 text-neutral-800 
                 text-xl 
                 mm:mx-4
-                font-bold">Hello, I am Md Abir Akter</div>
+                font-bold">Hello, I am Jhon Smith</div>
                 <div class="
                 
                 md:hidden 
@@ -231,7 +231,7 @@ const AboutSec = () => {
                             text-black 
                             text-xl 
                             md:text-sm 
-                            font-normal">Md Abir Akter</div>
+                            font-normal">Jhon Smith</div>
                         </div>
                         <div class="
                         mm:mx-4
@@ -259,7 +259,7 @@ const AboutSec = () => {
                             text-black 
                             text-xl 
                             md:text-sm 
-                            font-normal">abirakter056@gmail.com1</div>
+                            font-normal">yourmail@example.com</div>
                         </div>
                         <div class="
                         mm: block 
@@ -284,7 +284,7 @@ const AboutSec = () => {
                             text-black 
                             text-xl 
                             md:text-sm 
-                            font-normal">+88013038993001</div>
+                            font-normal">+39123456789</div>
                         </div>
                     </div>
                     {/*----------for computer view end-------*/}
@@ -318,7 +318,7 @@ const AboutSec = () => {
                                 text-center 
                                 text-black 
                                 text-xl 
-                                font-normal">+880 1303899300</div>
+                                font-normal">+39 123456789</div>
                             </div>
                             <div class="
                             mm:block 
@@ -347,7 +347,7 @@ const AboutSec = () => {
                                 text-center 
                                 text-black 
                                 text-xl 
-                                font-normal">@abir056</div>
+                                font-normal">@jhonxxxx</div>
                             </div>
                             <div class="
                             mm:block 
@@ -370,7 +370,7 @@ const AboutSec = () => {
                                 text-center 
                                 text-black 
                                 text-xl 
-                                font-normal">+880 1633311371</div>
+                                font-normal">+39 123456789</div>
                             </div>
                             {/*----------for mobile view end-------*/}
                             {/*----------for computer view start-------*/}
@@ -393,13 +393,13 @@ const AboutSec = () => {
                                 text-black 
                                 text-xl 
                                 md:text-sm 
-                                font-semibold">Telegram1</div>
+                                font-semibold">Telegram</div>
                                 <div class="
                                 text-center 
                                 text-black 
                                 text-xl 
                                 md:text-sm 
-                                font-normal">@abir056</div>
+                                font-normal">@jhonxxxx</div>
                             </div>
                             <div class="
                             hidden 
@@ -424,7 +424,7 @@ const AboutSec = () => {
                                 text-black 
                                 text-xl 
                                 md:text-sm 
-                                font-normal">+8801633311371</div>
+                                font-normal">+39123456789</div>
                             </div>
                         <div className='
                         mm:flex
@@ -456,7 +456,7 @@ const AboutSec = () => {
                                 transition
                                 duration-500 
                                 transform 
-                                hover:scale-110'> &ensp;Contact Me.
+                                hover:scale-110'> &ensp;Contact Me
                                         </h1>
                                     </a></button>
                             </div>
