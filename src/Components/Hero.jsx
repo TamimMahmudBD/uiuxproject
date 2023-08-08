@@ -42,7 +42,9 @@ const Hero = () => {
         mm:text-left 
         sm:text-left 
         md:text-left 
-        mm:mx-5 
+        mm:mx-5
+        mm:pl-5 
+        mm:-ml-10 
         sm:mx-0 
         md:pl-10
         lg:mr-28 

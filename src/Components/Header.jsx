@@ -29,7 +29,7 @@ const Header = () => {
 
       <div>
         <h1 className='
-        mm:mr-56 
+        mm:mr-[11rem] 
         sm:mr-0
         md:mr-0
         xl:mr-0 
